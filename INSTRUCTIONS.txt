@@ -1,0 +1,34 @@
+You are implementing the start of a "Catalog Management System."  You will be implementing a few of the initial methods in the
+basic "CatalogManager" interface.  You are being provided with the java interface.
+
+The key technologies you will use in this exercise include Java, Maven, Spring and JUnit.  
+
+-------------------------------
+You need to do the following
+-------------------------------
+
+	---------------------------
+	Bare Minimum
+	---------------------------
+	1) Implement the interface and create a unit test to test it
+	
+	---------------------------
+	Ideal (do this if you can)
+	---------------------------
+	1) Create a Maven POM & Maven project for your implementation, placing the code you were provided into the project
+	2) Implement the interface
+	3) Create a Spring Config (ideally Java instead of XML) to load your interface implementation as a singleton Spring bean
+	4) Create a JUnit test and wire/inject the Spring Bean into the unit test
+	5) zip your project after complete and attach it in a reply to the email originally sent to you
+
+-------------------------------
+A few pointers/notes
+-------------------------------
+	1) Do NOT alter the interface itself at all (including no packaging changes)
+	2) Read the requirements that exist as JavaDocs in the interface
+	3) Feel free to design your solution however you see fit
+	4) There does not need to be any persistence beyond inside of your Spring Bean (data gone once the JVM shuts down).  
+	5) Use whatever IDE or editor you desire.  The dev machine we provide, if you choose to use it, has Eclipse and Netbeans installed.
+	6) Feel free to use Google or similar sources to help complete the work, however you may not "phone a friend"
+
+Good Luck!
